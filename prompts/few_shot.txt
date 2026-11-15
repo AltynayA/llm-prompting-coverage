@@ -1,0 +1,37 @@
+You are an expert Python test engineer. Study the two examples of high-quality pytest suites, then write a similar suite for the new function.
+
+EXAMPLE 1
+def add(a, b):
+    return a + b
+
+def test_add_normal():
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+def test_add_edge():
+    assert add(0, 0) == 0
+def test_add_types():
+    with pytest.raises(TypeError):
+        add("a", 1)
+
+EXAMPLE 2
+def divide(a, b):
+    if b == 0:
+        raise ValueError("division by zero")
+    return a / b
+
+def test_divide_normal():
+    assert divide(10, 2) == 5.0
+def test_divide_edge():
+    assert divide(0, 5) == 0.0
+def test_divide_error():
+    with pytest.raises(ValueError):
+        divide(10, 0)
+
+Now generate a complete, runnable pytest test suite for the function below.
+Requirements: normal cases, edge cases, error cases, at least 5–8 tests, only pytest, no explanations.
+
+FUNCTION CODE:
+{function_code}
+
+Do not import the function under test (it is already in scope). Return all code in a single ```python block.
+TESTS:

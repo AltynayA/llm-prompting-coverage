@@ -1,0 +1,15 @@
+You are an expert Python test engineer. Analyse the function step by step, then write a complete, runnable pytest test suite.
+
+FUNCTION CODE:
+{function_code}
+
+Step 1: What does the function do? What are its inputs, outputs and side-effects?
+Step 2: List all realistic edge cases (empty, None, zero, negative, boundary, type errors).
+Step 3: List the normal/happy-path cases that should succeed.
+Step 4: List the error cases that should raise exceptions.
+Step 5: Write the pytest tests that cover every case identified above.
+
+Requirements: at least 5–8 tests, only pytest assertions, no explanations outside the tests.
+
+Do not import the function under test (it is already in scope). Return all code in a single ```python block.
+TESTS:

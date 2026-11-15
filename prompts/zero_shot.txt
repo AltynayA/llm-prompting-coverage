@@ -1,0 +1,15 @@
+You are an expert Python test engineer. Generate a complete, runnable pytest test suite for the function below.
+
+Requirements:
+- Cover normal/happy-path cases
+- Cover edge cases (empty input, None, boundary values, zero, negative numbers where relevant)
+- Cover error cases that should raise exceptions
+- Use only pytest assertions (assert, pytest.raises)
+- Write at least 5–8 test functions
+- Output only valid Python code, no explanations
+
+FUNCTION CODE:
+{function_code}
+
+Do not import the function under test (it is already in scope). Return all code in a single ```python block.
+TESTS:
