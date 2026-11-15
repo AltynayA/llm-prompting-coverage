@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "llm-prompting-coverage: Experiment materials for prompting strategies and the code coverage of LLM-generated unit tests"
+authors:
+  - family-names: "Ayazbayeva"
+    given-names: "Altynay"
+date-released: 2026-11-15
+url: "https://github.com/AltynayA/llm-prompting-coverage"
